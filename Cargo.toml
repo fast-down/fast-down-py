@@ -1,6 +1,6 @@
 [package]
 name = "fast-down-py"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -12,7 +12,7 @@ crate-type = ["cdylib"]
 pyo3 = { version = "0.28", features = ["extension-module"] }
 pyo3-async-runtimes = { version = "0.28", features = ["tokio-runtime"] }
 bytes = "1.11.1"
-fast-down-ffi = { version = "0.2.4", features = ["file", "mem", "reqwest-tls"] }
+fast-down-ffi = { version = "0.2.5", features = ["file", "mem", "reqwest-tls"] }
 parking_lot = "0.12.5"
 sanitize-filename = "0.6.0"
 tokio = { version = "1.51.0", features = ["full"] }
